@@ -1,88 +1,151 @@
 {
-    "express": "http://89.31.216.157:4444",
-    "languages": {
-        "mp3_converter": "MP3 Converter",
-        "mp3_converter_desc": "You can download beats or rhythms of your choice from YouTube here. Then it will come to the folder.",
-        "converter_placholder": "YouTube music link",
-        "download": "Download",
-        "something_went_wrong": "The request failed. Something went wrong.",
-        "unable_get": "Unable to get download link",
-        "error_saving": "Error saving the file",
-        "download_success": "Download completed",
-        "invalid_studio": "Invalid studio",
-        "invalid_url": "Invalid URL",
-        "sound_too_long": "The sound is too long",
-        "unauthorized": "Unauthorized",
-        "sound_processing": "The sound is being processed, try downloading again after a few seconds.",
-        "sound_convert_failed": "Sound can't seem to be converted. May not be a valid URL",
-        "something_went_wrong_yt_api": "Something went wrong with the YouTube API, try again later.",
-
-        "daw": {
-            "headerItems": {
-                "file": "file",
-                "edit": "edit",
-                "add": "add",
-                "patterns": "patterns",
-                "view": "view",
-                "options": "options",
-                "help": "help"
-            },
-            "tracklist_title": "Audio Clips, Tracks, Beats",
-            "are_you_sure": "Are you sure?",
-            "sure_desc": "If you continue, your project will be closed without saving.",
-            "continue_app": "Continue",
-            "forget": "Forget it",
-            "delete_track": "Delete Track",
-            "delete_file": "Delete File",
-            "rename_file": "Rename File",
-            "change_title": "Change file name",
-            "change_subtitle": "You can change the name of the file you want.",
-            "new_file_name": "New file name",
-            "change_name": "Change",
-            "action_cooldown": "A request is currently in progress. Try again later.",
-            "save_record": "Save Record",
-            "delete_record": "Delete Record",
-            "record": {
-                "save_failed": "An error occurred while saving the file.",
-                "save_success": "The file was successfully saved.",
-                "target_record": "Recording rapper sounds..."
-            },
-            "export": {
-                "export_title": "Exporting the project",
-                "export_subtitle": "The project is exporting, do not take any action.",
-                "file_name": "Enter project title",
-                "save_name": "Save",
-                "export_failed": "An error occurred while exporting the project.",
-                "export_success": "The project was successfully exported.",
-                "export_uploading": "The project is uploading."
-            }
-        },
-
-        "media_player": {
-            "app_title": "Media Player",
-            "application_slogan": "Beats & Exports",
-            "application_slogan_desc": "You can listen to the beats you downloaded from YouTube or the exports you received from W Studio here, you can listen to your friends."
-        },
-
-        "recorder": {
-            "busy": "Unable to start/stop recording because an operation is currently in progress."
-        },
-
-        "mixer": {
-            "app_title": "Mixer",
-            "insert": "Insert",
-            "delay": {
-                "label": "Mango Delay 3"
-            },
-            "distortion": {
-                "label": "Mango Distortion"
-            },
-            "flanger": {
-                "label": "Mango Flanger"
-            },
-            "reverb": {
-                "label": "Zex Reverb"
-            }
+    "backgrounds": [
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/1.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/2.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/3.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/4.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/5.png",
+        "https://r2.fivemanage.com/9PdRQlH522tAOWOgrXC7G/6.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/7.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/8.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/9.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/10.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/11.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/12.png",
+        "https://r2.fivemanage.com/E0bqIbNbCrTj4Q9Z71Ykd/13.png",
+        "https://r2.fivemanage.com/9PdRQlH522tAOWOgrXC7G/14.png"
+      
+    ],
+    "songs": [
+        {
+            "song": "",
+            "artist": "",
+            "url": ""
         }
+    ],
+    "changelog": {
+        "changes": [
+           {
+            "description": "Massive Vortex update with performance upgrades, new systems, and fun activities!",
+            "type": "UPDATE",
+            "title": "VORTEX 2.5"
+        },
+        {
+            "description": "Big optimization pass on all clothing to help with performance and reduce overall city lag. Duplicates removed and optimized clothing is now under 'textures/'.",
+            "type": "IMPROVEMENT",
+            "title": "CLOTHING UPDATE 2.5"
+        },
+        {
+            "description": "MLOs and vehicles tuned and optimized for better performance across the city.",
+            "type": "IMPROVEMENT",
+            "title": "MLO & VEHICLE OPTIMIZATION"
+        },
+        {
+            "description": "Realistic EMS system with limb-based injury logic, new ragdoll mechanics for running/falling/jumping, and different healing tools for civilians and police.",
+            "type": "NEW",
+            "title": "NEW AMBULANCE SYSTEM"
+        },
+        {
+            "description": "Painkillers (for civilians) and IFAKs (for police) can now be used to stop bleeding and stabilize injuries.",
+            "type": "NEW",
+            "title": "INJURY SYSTEM + HEALING ITEMS"
+        },
+        {
+            "description": "Fully redesigned notification system to better match the custom Vortex UI style.",
+            "type": "REDESIGN",
+            "title": "NOTIFICATION SYSTEM"
+        },
+        {
+            "description": "Progress bars have been completely redesigned to better align with the Vortex look and feel.",
+            "type": "REDESIGN",
+            "title": "PROGRESS BAR SYSTEM"
+        },
+        {
+            "description": "New animated loading screen with immersive visual design customized for Vortex.",
+            "type": "REDESIGN",
+            "title": "LOADING SCREEN"
+        },
+        {
+            "description": "New custom pause menu designed to fit the theme and layout of Vortex.",
+            "type": "REDESIGN",
+            "title": "PAUSE MENU"
+        },
+        {
+            "description": "New in-vehicle CarPlay radio system optimized for performance and ease of use.",
+            "type": "NEW",
+            "title": "CARPLAY SYSTEM"
+        },
+        {
+            "description": "New radio system added with realistic radio animations for better immersion.",
+            "type": "NEW",
+            "title": "RADIO SYSTEM"
+        },
+        {
+            "description": "Weapons now visibly stay on your back while reloading skins, driving, or switching weapons.",
+            "type": "NEW",
+            "title": "WEAPON ON BACK SYSTEM"
+        },
+        {
+            "description": "Vehicle contracts now handled at PDM to avoid scams when selling cars.",
+            "type": "NEW",
+            "title": "VEHICLE SELLING CONTRACTS"
+        },
+        {
+            "description": "New optimized vehicle key system that works reliably across all vehicle types.",
+            "type": "NEW",
+            "title": "VEHICLE KEY SYSTEM"
+        },
+        {
+            "description": "New hospital interior now located in Vinewood, offering improved performance and layout.",
+            "type": "NEW",
+            "title": "NEW VINEWOOD HOSPITAL"
+        },
+        {
+            "description": "Business crafting system and boss menu have been streamlined for better ease of use for business owners.",
+            "type": "IMPROVEMENT",
+            "title": "BUSINESS CRAFTING/BOSS MENU"
+        },
+        {
+            "description": "New car derby event added at Postal 910 for fun competitive events.",
+            "type": "NEW",
+            "title": "VORTEX DERBY"
+        },
+        {
+            "description": "Laser tag system added at Postal 622  play competitive matches with friends using laser gear.",
+            "type": "NEW",
+            "title": "LASER TAG SYSTEM"
+
+            }
+
+           ],
+        "date": "05/18/2025",
+        "version": "2.5.0"
+    },
+    "players": [
+        {
+            "description": "The Butts Crime Family has dominated the streets this month with strategic takeovers, relentless turf control, and a reputation that leaves their enemies second-guessing every move. Feared, respected, and always a step ahead  they have earned their spot at the top.",
+            "name": "Butts Crime Family",
+            "image": "https://r2.fivemanage.com/9PdRQlH522tAOWOgrXC7G/bcf1.png",
+            "category": "Top Gang"
+        },
+        {
+            "description": "Agent Brownie has set the standard this month with sharp investigative work, unmatched professionalism, and relentless pursuit of justice. From undercover ops to high-stakes busts, he's proven why he's a key player in the FBI and more than earned his spot as Police Officer of the Month.",
+            "name": "Brownie",
+            "image": "https://r2.fivemanage.com/9PdRQlH522tAOWOgrXC7G/brownie.png",
+            "category": "POLICE Officer"
+        },
+        {
+            "description": "Maximo has gone above and beyond this month, showing unwavering dedication to saving lives across the city. His leadership, professionalism, and quick response in high-pressure situations have earned him the title of EMS Employee of the Month  and with his promotion to Chief of EMS, the department is in capable hands.",
+            "name": "Maximo",
+            "image": "https://r2.fivemanage.com/9PdRQlH522tAOWOgrXC7G/image_2025-05-18_180614598.png",
+            "category": "EMS Employee"
+        }
+    ],
+    "store": {
+        "type_text": "",
+        "description": "Check out exclusive in-game packages designed to level up your experience while helping support the continued growth and quality of VORTEX Roleplay",
+        "url": "https://VORTEX-roleplay.tebex.io/",
+        "title": "VORTEX STORE",
+        "type": "2.5 Sale Live Now!"
     }
 }
