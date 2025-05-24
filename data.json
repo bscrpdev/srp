@@ -28,7 +28,7 @@
            {
             "description": "Massive Vortex update with performance upgrades, new systems, and fun activities!",
             "type": "UPDATE",
-            "title": "VORTEX 2.5"
+            "title": "VORTEX 2.1"
         },
         {
             "description": "Big optimization pass on all clothing to help with performance and reduce overall city lag. Duplicates removed and optimized clothing is now under 'textures/'.",
