@@ -26,9 +26,9 @@
     "changelog": {
         "changes": [
            {
-            "description": "Massive Vortex update with performance upgrades, new systems, and fun activities!",
+            "description": "Massive Sentinel update with performance upgrades, new systems, and fun activities!",
             "type": "UPDATE",
-            "title": "VORTEX 2.1"
+            "title": "Sentinel 2.1"
         },
         {
             "description": "Big optimization pass on all clothing to help with performance and reduce overall city lag. Duplicates removed and optimized clothing is now under 'textures/'.",
@@ -51,22 +51,22 @@
             "title": "INJURY SYSTEM + HEALING ITEMS"
         },
         {
-            "description": "Fully redesigned notification system to better match the custom Vortex UI style.",
+            "description": "Fully redesigned notification system to better match the custom Sentinel UI style.",
             "type": "REDESIGN",
             "title": "NOTIFICATION SYSTEM"
         },
         {
-            "description": "Progress bars have been completely redesigned to better align with the Vortex look and feel.",
+            "description": "Progress bars have been completely redesigned to better align with the Sentinel look and feel.",
             "type": "REDESIGN",
             "title": "PROGRESS BAR SYSTEM"
         },
         {
-            "description": "New animated loading screen with immersive visual design customized for Vortex.",
+            "description": "New animated loading screen with immersive visual design customized for Sentinel.",
             "type": "REDESIGN",
             "title": "LOADING SCREEN"
         },
         {
-            "description": "New custom pause menu designed to fit the theme and layout of Vortex.",
+            "description": "New custom pause menu designed to fit the theme and layout of Sentinel.",
             "type": "REDESIGN",
             "title": "PAUSE MENU"
         },
@@ -108,7 +108,7 @@
         {
             "description": "New car derby event added at Postal 910 for fun competitive events.",
             "type": "NEW",
-            "title": "VORTEX DERBY"
+            "title": "Sentinel DERBY"
         },
         {
             "description": "Laser tag system added at Postal 622  play competitive matches with friends using laser gear.",
